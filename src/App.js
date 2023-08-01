@@ -11,10 +11,7 @@ function App() {
                 <Route path="/register" element={<RegisterPage/>} />
                 <Route path="/login" element={<LoginPage/>} />
                 <Route path="/dashboard" element={<DashboardPage/>} />
-                <Route path="/" element={<h1>Welcome home😍😍!! Are u ready for the fun🥳🥳 click login or register
-                  <button><a href="http://localhost:3000/login">login</a></button>
-                  <button><a href="http://localhost:3000/register">register</a></button>
-                </h1>} />
+                <Route path="/" element={<LoginPage/>} />
             </Routes>
         
         
